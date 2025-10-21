@@ -132,6 +132,92 @@ body {
     margin: 0;
 }
 
+.projects {
+    background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-text {
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.project-title {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+
+.project-time,
+.project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+.project-paragraph {
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.project-icon {
+    margin-right: 16px;
+}
+
+.project-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.project-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.project-bullet:hover {
+    cursor: pointer;
+}
+
+.project-bullet-active {
+    background-color: #FFBB01;
+}
+
+.project-image {
+    width: 328px;
+    height: 268px;
+    border-radius: 10px;
+}
+
 /* contacts */
 .contacts-form {
     background-color: white;
@@ -149,6 +235,7 @@ body {
     margin: 0;
     margin-bottom: 29px;
 }
+
 .input {
     background: #F8F8F8;
     border: none;
@@ -160,59 +247,73 @@ body {
     font-size: 14px;
     line-height: 28px;
 }
+
 .input-name {
     margin-bottom: 17px;
     background-image: url(../img/user-icon.svg);
     background-repeat: no-repeat;
     background-position: center left 20px;
 }
+
 .input-phone {
     margin-bottom: 17px;
     background-image: url(../img/phone-icon.svg);
     background-repeat: no-repeat;
     background-position: center left 20px;
 }
+
 .form-button {
     width: 100%;
 }
+
 .contacts-block {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
+
 .contacts-data {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 42px;
 }
-.contacts-phone, .contacts-mail {
+
+.contacts-phone,
+.contacts-mail {
     flex-basis: 50%;
     margin-bottom: 25px;
 }
+
 .contacts-social {
     flex-basis: 100%;
 }
+
 .contacts-title {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 15px;
 }
+
 .contacts-link {
     text-decoration: none;
     color: inherit;
     margin-right: 37px;
 }
+
 .contacts-link:hover {
     text-decoration: underline;
 }
+
 .contacts-text {
     flex-basis: 50%;
 }
+
 .social-link:first-child {
     margin-left: 0;
 }
+
 .contacts-policy {
     font-size: 15px;
     line-height: 18px;
